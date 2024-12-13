@@ -70,7 +70,7 @@ async function scaleImage(image, width, height) {
 }
 
 async function getAIguess(image) {
-    const response = await fetch('http://simonko-912.github.io/DoodleAI/getAIguess.php', {
+    const response = await fetch('http://Your/Site/getAIguess.php', { //Replace with your server adress
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ image })
@@ -97,7 +97,7 @@ async function trainAI() {
     const scaledImage = await scaleImage(image, 128, 128);
     
     try {
-        const response = await fetch('http://simonko-912.github.io/DoodleAI/trainAI.php', {
+        const response = await fetch('http://Your/Site/trainAI.php', { //Replace with your server adress
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ label, image: scaledImage })
