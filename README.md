@@ -1,7 +1,8 @@
 # DoodleAI
 
 DoodleAI is an interactive platform that allows users to draw and train an AI to recognize their sketches. It's a fun way to create custom datasets.
-                              <img width="309" alt="Image Of Doodle AI Guessing Ball Corectly" src="https://github.com/user-attachments/assets/f5a9b2ba-4de6-4ddd-b0ae-73b7b85b0116" />
+
+                               <img width="309" alt="Image Of Doodle AI Guessing Ball Corectly" src="https://github.com/user-attachments/assets/f5a9b2ba-4de6-4ddd-b0ae-73b7b85b0116" />
 ## Features
 #### Pre-Trained Model:
 DoodleAI comes with images so you can test it.
