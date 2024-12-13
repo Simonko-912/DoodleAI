@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doodle AI</title>
     <style>
+        footer {
+               position: absolute;
+               bottom: 10px;
+               width: 100%;
+               text-align: center;
+               font-size: 12px; 
+               color: #bbbbbb; /* Lighter color to match the theme */
+            }
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -90,7 +98,9 @@
     <p id="guessOutput">AI: "I see..."</p>
     <input id="labelInput" type="text" placeholder="Enter what you drew">
     <button onclick="trainAI()">Train AI</button>
-    <h1>Made By Simonko-912</h1>
+    <footer>
+    <p>Made by Simonko-912</p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
