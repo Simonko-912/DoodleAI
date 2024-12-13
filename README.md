@@ -4,8 +4,8 @@ DoodleAI is an interactive platform that allows users to draw and train an AI to
 
 ## Features
 Draw and Guess: Create drawings on a 500x500 (Converted to 128x128) canvas and let the AI guess what it is.
-Training: Label your drawings and submit them to improve the AI’s accuracy.
-Voice Feedback: The AI speaks its guess using text-to-speech.
+###Training: Label your drawings and submit them to improve the AI’s accuracy.
+###Voice Feedback: The AI speaks its guess using text-to-speech.
 
 ## Technologies Used
 HTML, CSS, JavaScript
@@ -23,7 +23,7 @@ Open index.html in your local server to view the app.
 
 ## Usage
 Draw: Use the canvas to sketch an object.
-Submit: Click "Submit" to have the AI guess your drawing.
-Train: Enter a label and click "Train AI" to add your drawing to the training set.
+###Submit: Click "Submit" to have the AI guess your drawing.
+###Train: Enter a label and click "Train AI" to add your drawing to the training set.
 ## License
 This project is open-source and available under the MIT License.
