@@ -3,7 +3,7 @@
 DoodleAI is an interactive platform that allows users to draw and train an AI to recognize their sketches. It's a fun way to explore machine learning and create custom datasets.
 
 ## Features
-Draw and Guess: Create drawings on a 500x500 canvas and let the AI guess what it is.
+Draw and Guess: Create drawings on a 500x500 (Converted to 128x128) canvas and let the AI guess what it is.
 Training: Label your drawings and submit them to improve the AI’s accuracy.
 Voice Feedback: The AI speaks its guess using text-to-speech.
 
