@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doodle AI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            overflow: hidden; /* Prevent scrolling */
+        }
+
+        h1 {
+            font-size: 36px; /* Adjusted title size */
+            margin-bottom: 20px;
+        }
+
+        canvas {
+            border: 2px solid #ffffff;
+            background-color: #2b2b2b;
+            margin: 20px;
+            border-radius: 8px;
+            width: 500px; /* Canvas width */
+            height: 500px; /* Canvas height */
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        button {
+            margin: 20px;
+            padding: 20px 30px;
+            border: none;
+            border-radius: 10px;
+            background-color: #1e88e5;
+            color: #ffffff;
+            font-size: 22px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #1565c0;
+        }
+
+        #guessOutput {
+            margin-top: 30px;
+            font-size: 24px;
+            color: #bbbbbb;
+        }
+
+        #labelInput {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #444;
+            background-color: #2b2b2b;
+            color: #ffffff;
+            font-size: 22px;
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .buttons-container button {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Doodle AI</h1>
+    <canvas id="drawCanvas" width="500" height="500"></canvas>
+    <div class="buttons-container">
+        <button onclick="clearCanvas()">Clear</button>
+        <button onclick="submitDrawing()">Submit</button>
+    </div>
+    <p id="guessOutput">AI: "I see..."</p>
+    <input id="labelInput" type="text" placeholder="Enter what you drew">
+    <button onclick="trainAI()">Train AI</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
