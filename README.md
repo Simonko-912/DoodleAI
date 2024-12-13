@@ -19,8 +19,8 @@ Clone the repository:
 
 ```bash Copy code
 git clone https://github.com/Simonko-912/DoodleAI.git
-Set up a local server with PHP support (e.g., XAMPP, MAMP).
 ```
+Set up a local server with PHP support (e.g., XAMPP, MAMP).
 Open index.html in your browser or run the local server to view the app.
 
 ## Usage
