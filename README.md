@@ -1,5 +1,16 @@
 # DoodleAI
 
+<p align="center"> 
+    <img src="https://img.shields.io/github/issues/Simonko-912/DoodleAI" alt="Issues">
+    <img src="https://img.shields.io/github/forks/Simonko-912/DoodleAI" alt="Forks">
+    <img src="https://img.shields.io/github/stars/Simonko-912/DoodleAI" alt="Stars">
+    <img src="https://img.shields.io/github/license/Simonko-912/DoodleAI" alt="License">
+    <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Version">
+    <img src="https://img.shields.io/badge/contributors-5-orange" alt="Contributors">
+    <img src="https://img.shields.io/github/downloads/Simonko-912/DoodleAI/total" alt="Downloads">
+    <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
+</p>
+
 DoodleAI is an interactive platform that allows users to draw and train an AI to recognize their sketches. It's a fun way to create custom datasets.
 
 <img width="309" alt="Image Of Doodle AI Guessing Ball Corectly" src="https://github.com/user-attachments/assets/f5a9b2ba-4de6-4ddd-b0ae-73b7b85b0116" />
