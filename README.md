@@ -29,7 +29,7 @@ The AI speaks its guess using text-to-speech.
 ## Technologies Used
 HTML, CSS, JavaScript
 Canvas API
-PHP (for backend)
+PHP (for backend; Means no static website)
 Speech Synthesis API
 ## Installation
 Clone the repository:
