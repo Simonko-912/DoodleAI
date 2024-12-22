@@ -4,9 +4,9 @@
     <img src="https://img.shields.io/github/issues/Simonko-912/DoodleAI" alt="Issues">
     <img src="https://img.shields.io/github/forks/Simonko-912/DoodleAI" alt="Forks">
     <img src="https://img.shields.io/github/stars/Simonko-912/DoodleAI" alt="Stars">
-    <img src="https://img.shields.io/github/license/Simonko-912/DoodleAI" alt="License">
+    <img src="https://img.shields.io/github/license/Simonko-912/DoodleAI" alt="License (MIT)">
     <img src="https://img.shields.io/badge/version-1.0.0-blue" alt="Version">
-    <img src="https://img.shields.io/badge/contributors-5-orange" alt="Contributors">
+    <img src="https://img.shields.io/badge/contributors-0-orange" alt="Contributors">
     <img src="https://img.shields.io/github/downloads/Simonko-912/DoodleAI/total" alt="Downloads">
     <img src="https://img.shields.io/badge/build-passing-brightgreen" alt="Build Status">
 </p>
